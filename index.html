@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Meeting Minutes Bones - Meeting X</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="media/square.png">
+    </head>
+
+    <body>
+        <header>
+            <h1> Meeting Minutes for a Fake Meeting </h1>
+            <section>
+                <h2> Objective: Fixing our Documentation and Drafting UI Elements </h2>
+                <h3> Date: 10/3/2021 </h3>
+            </section>
+            <h3> the circus is in town, boys </h3>
+            <nav>
+                <div class="table_of_contents">
+                    <h3>DIRECTORY</h3>
+                    <ul>
+                        <li> <a href="#attendees">Attendence List</a> </li>
+                        <li> <a href="#agenda">Agenda</a> </li>
+                        <li> <a href="#overflow">Outstanding Items from Last Meeting</a> </li>
+                        <li> <a href="#topics">Topics for This Meeting</a> </li>
+                        <li> <a href="#questions">Questions & Concerns from the Team</a> </li>
+                        <li> <a href="#images">Image Docs</a> </li>
+                        <li> <a href="#audio_video">Audio and Video Records</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <hr>
+
+        <main>
+            <div class="maindiv">
+                <section>
+                    <h3 id="attendees">List of Attendees</h3>
+                    <ul>
+                        <li> <span class="team">Zane Wang</span> </li>
+                        <li> <span class="team">Lord Scrubington II</span> </li>
+                        <li> <span class="team">EpicGamer47</span> </li>
+                        <li> <span class="team">AAAaaaaaA</span> </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3 id="agenda">Today's Agenda</h3>
+                    <ol>
+                        <li>Cover Outstanding Issues</li>
+                        <li>Progress Reports</li>
+                        <li>Discuss Backend API</li>
+                        <li>Overhauling our Docs</li>
+                        <li><b>Draft UI Components</b>
+                            <ol type="I">
+                                <li><i>Inventory Elements</i></li>
+                                <li><i>Back and Forward Buttons</i></li>
+                                <li><i>Settings Menu</i></li>
+                                <li><i>Battle Menus</i></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </section>
+                <section>
+                    <h3 id="overflow">Outstanding Items from the Last Meeting</h3>
+                    <p>
+                        Last time, we concluded that the game needed to undergo a refactoring overhaul, and also
+                        update to use the <strong>C# Jobs System.</strong> <br> We can allocate hands to start this task next week.
+                    </p>
+                </section>
+                <section>
+                    <h3 id="topics">Topics for This Meeting</h3>
+                    <details>
+                        <summary>
+                            Topics covered in detail:
+                        </summary>
+                        <section>
+                            <ol>
+                                <li>
+                                    <em>Zane</em> proposes that our docs need to be reworked to cover more components of our in-house APIs, <br>
+                                    and reported that he finished working out the damage formulae.
+                                </li>
+                                <li><em>EpicGamer47</em> reported that he finished the component that controls the camera during battle.</li>
+                                <li><em>Scrubington</em> reported that he finished cleaning up the game's assets.</li>
+                                <li>The team decided on using Firebase to store and query player accounts.</li>                               
+                            </ol>
+                        </section>
+                    </details>
+                </section>
+                <section>
+                    <h3 id="questions">Questions & Concerns from the Team</h3>
+                    <p>Scrubington asks about how long refactoring will take. The answer is 10.</p>
+                    <p>
+                        AAAaaaaaA spent the whole meeting staring intently at a spider that he claimed was on the ceiling. <br>
+                        <b><em>Nobody else could see it.</em></b>
+                    </p>
+                </section>
+                <section>
+                    <h3 id="images">Image Docs</h3>
+                    <h4>Execution Lifecycle for a Unity Script:</h4>
+                    <img src="media/monobehaviour_flowchart.png" alt="oops image go boom">
+                </section>
+                <section>
+                    <h3 id="audio_video">Audio and Video Records</h2>
+                    <figure>
+                        <figcaption>Meeting Audio Podcast:</figcaption>
+                        <audio controls src="media/Voice 003_sd.m4a"></audio>
+                    </figure>
+                    <figure>
+                        <figcaption>Meeting Video Podcast:</figcaption>
+                        <video controls width="500" src="media/vid.mp4"></video>
+                    </figure>
+                </section>
+            </div>
+
+
+            <footer>
+                <form>
+                    <fieldset>
+
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" required>
+                        <br>
+                        <label for="date">Date: </label>
+                        <input type="date" name="date" id="date" required>
+                        <br>
+
+
+                        <label for="radio">Choose a Language:</label> <br>                        
+                        <input type="radio" name="radio" id="C" required>
+                        <label for="C">C</label>
+                        <br>
+                        <input type="radio" name="radio" id="C++" required>
+                        <label for="C++">C++</label>
+                        <br>
+                        <input type="radio" name="radio" id="C#" required>
+                        <label for="C#">C#</label>
+                        <br>
+                        <input type="radio" name="radio" id="Java" required>
+                        <label for="Java">Java</label>
+                        <br>
+                        <input type="radio" name="radio" id="Python" required>
+                        <label for="Python">Python</label>
+                        <br>
+                        <input type="radio" name="radio" id="JavaScript" required>
+                        <label for="JavaScript">JavaScript</label>
+                        <br>
+                        <input type="radio" name="radio" id="Haskell" required>
+                        <label for="Haskell">Haskell</label>
+                        <br>
+
+                        
+                        <input type="checkbox" name="checkbox" id="checkbox" required>
+                        <label for="checkbox">Anime</label>
+                        <br>
+
+                        <label for="game_review">Tell me about you favourite game:</label>
+                        <textarea id="game_review" name="review_box" rows="5" cols="33">
+                            Tell me about it here!
+                        </textarea>
+                        <br>
+
+                        <label for="console_choice">Choose a Gamer Box:</label>
+                        <input list="consoles" id="console_choice" name="console_choice" />
+                        <datalist id="consoles">
+                            <option value="Dintendo Swicc">
+                            <option value="EccsBocks">
+                            <option value="PlaeStatton">
+                            <option value="Bindows BC">
+                            <option value="Dintendo DeeS">
+                            <option value="Not Gamer">
+                        </datalist>
+                        
+                        <br>
+                        <label for="judgement">Choose wisely:</label>
+                        <select name="judgement" id="judgement">
+                            <option value="">--Judgement--</option>
+                            <option value="a">Beans</option>
+                            <option value="b">Bones</option>
+                        </select>
+                        <br>
+
+                        <button type="button"> 
+                            Click for Funnies Haha
+                        </button>
+
+                    </fieldset>
+                </form> 
+            </footer>
+
+        </main>
+    </body>
+</html>
