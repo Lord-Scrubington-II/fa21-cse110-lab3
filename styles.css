@@ -29,6 +29,11 @@ fieldset, fieldset * {
     margin: 5px 1px 1px 1px;
 }
 
+fieldset > label[for="name"] ~ label {
+    /*for shoehorning in selector usage*/
+    color: black;
+}
+
 section, nav{
     margin-left: 40px;
     margin-right: 0px;
@@ -65,7 +70,7 @@ details:hover {
 button {
     background-color: rgb(13, 209, 183);
     border: 2px solid black;
-    margin: auto;
+    margin: 1mm;
     padding: 5pt 5pt 5pt 5pt;
     display: block;
     position: relative;
@@ -78,10 +83,22 @@ button:hover {
 }
 
 
-
 button:active {
     background-color: rgba(212, 0, 201, 0.76);
     border: 2px solid black;
-    margin: 1mm;
+    margin: auto;
+
 }
 
+img {
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 0;
+}
+
+@media (hover: hover) {
+    video {
+        border: 1px;
+    }
+}
