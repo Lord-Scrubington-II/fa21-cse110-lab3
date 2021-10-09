@@ -6,15 +6,35 @@
 
 h3 {
     color: firebrick;
-    text-decoration: solid underline black;
+    text-decoration: 2px solid underline black;
 }
 
 ul > li, ol > li {
     color: hsl(80, 90%, 29%);
 }
 
+fieldset {
+    width: auto;
+    height: auto;
+    max-width: none;
+    min-width: fit-content;
+    padding-right: 2rem;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
 fieldset, fieldset * {
     background-color: beige;
+    margin: 5px 1px 1px 1px;
+}
+
+section, nav{
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    position: sticky;
 }
 
 input, select, textarea {
@@ -25,18 +45,43 @@ input[type="date"] {
     color: seagreen;
 }
 
+#agenda {
+    color: darkcyan;
+    font-size: x-large;
+}
+
+.team {
+    text-decoration: underline green;
+}
+
+section > h3 + details {
+    color: rebeccapurple;
+}
+
+details:hover {
+    color: purple;
+}
+
 button {
     background-color: rgb(13, 209, 183);
     border: 2px solid black;
+    margin: auto;
+    padding: 5pt 5pt 5pt 5pt;
+    display: block;
+    position: relative;
 }
 
 button:hover {
     background-color: rgba(13, 255, 223, 0.76);
-    border: 1mm solid black;
+    border: 2px solid black;
+    margin: 1mm;
 }
 
-button:focus {
+
+
+button:active {
     background-color: rgba(212, 0, 201, 0.76);
     border: 2px solid black;
+    margin: 1mm;
 }
 
